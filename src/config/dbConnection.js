@@ -5,7 +5,6 @@ const url = "mongodb://localhost:27017";
 const dbName = "got";
 
 var connMongoDB = function () {
-    console.log('Conexão aberta');
     var db = new mongo.Db(
         'got', new mongo.Server(
             'localhost',
